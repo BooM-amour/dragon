@@ -94,7 +94,7 @@ local function run(msg, matches)
   if matches[1]:lower() == 'dragon' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /nod32 ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /dragon ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
